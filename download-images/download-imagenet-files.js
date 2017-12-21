@@ -79,6 +79,10 @@ if (process.argv.length > 3) {
     console.log("Going to look at the image list - ", process.argv[2]);
     console.log("We will be categorising these images as", process.argv[3]);
     
+    if (!fs.existsSync("training_data")) {
+        fs.mkdirSync("training_data");
+    }
+
     fs.exists("training_data/" + process.argv[3], (exists) => {
         if (!exists) {
             fs.mkdirSync("training_data/" + process.argv[3]);
