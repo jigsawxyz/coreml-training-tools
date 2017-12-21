@@ -1,0 +1,1 @@
+Training data folder - this is where your training data sub folders will be placed
