@@ -1,0 +1,21 @@
+{
+  "name": "imagenet-image-downloader",
+  "version": "0.0.1",
+  "description": "Downloads a list of image files to a training data folder",
+  "main": "download-imagenet-files.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "download-file": "^0.1.5",
+    "gm": "^1.23.0",
+    "is-corrupted-jpeg": "^1.0.2",
+    "request": "^2.83.0",
+    "sharp": "^0.18.4",
+    "superagent": "^3.8.2",
+    "uuid": "^3.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
